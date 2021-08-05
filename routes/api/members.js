@@ -39,6 +39,10 @@ router.post('/', (req, res) => {
 
     members.push(newMember);
     res.json(members);
+
+
+    // to show member list in UI
+    //res.redirect('/');
 })
 
 // Update a member
